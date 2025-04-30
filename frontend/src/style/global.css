@@ -1,0 +1,15 @@
+/* @import "tailwindcss"; */
+
+:root {
+    --backgound-page: #708090	;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--backgound-page);
+}
