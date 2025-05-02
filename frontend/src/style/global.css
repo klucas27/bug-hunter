@@ -1,7 +1,9 @@
 /* @import "tailwindcss"; */
 
 :root {
-    --backgound-page: #708090	;
+    --background-page: #0F172A	;
+    --background-bars: #1E293B;
+
 }
 
 * {
@@ -11,6 +13,6 @@
 }
 
 body {
-    background-color: var(--backgound-page);
+    background-color: var(--background-page);
 
 }
