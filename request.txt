@@ -1,0 +1,96 @@
+# Dependências do projeto Bug Hunter
+
+## Dependências globais
+- Node.js (https://nodejs.org/)
+- npm ou yarn (gerenciador de pacotes)
+
+## Dependências do frontend
+- react
+- react-dom
+- react-router-dom
+- @phosphor-icons/react
+
+### Dependências de desenvolvimento do frontend
+- eslint (para linting)
+- prettier (para formatação de código)
+
+## Dependências do backend (se aplicável)
+- Nenhuma dependência especificada até o momento
+
+## Comandos para instalação
+
+### Passo a passo de instalação do projeto
+
+1. **Clone o repositório**:
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   cd bug-hunter
+   ```
+
+2. **Instale as dependências do frontend**:
+   - Navegue até a pasta `frontend`:
+     ```bash
+     cd frontend
+     ```
+   - Instale as dependências:
+     ```bash
+     npm install
+     ```
+   - Volte para a pasta principal:
+     ```bash
+     cd ..
+     ```
+
+3. **Configure o ESLint e o Prettier localmente**:
+   - Navegue até a pasta `frontend`:
+     ```bash
+     cd frontend
+     ```
+   - Instale o ESLint e o Prettier como dependências de desenvolvimento:
+     ```bash
+     npm install eslint prettier --save-dev
+     ```
+   - (Opcional) Configure o ESLint:
+     ```bash
+     npx eslint --init
+     ```
+   - (Opcional) Configure o Prettier criando um arquivo `.prettierrc`:
+     ```bash
+     echo {} > .prettierrc
+     ```
+
+4. **Inicie o servidor de desenvolvimento do frontend**:
+   - Navegue até a pasta `frontend`:
+     ```bash
+     cd frontend
+     ```
+   - Inicie o servidor:
+     ```bash
+     npm run dev
+     ```
+
+5. **(Opcional) Configuração do backend**:
+   - Se houver um backend, navegue até a pasta `backend`:
+     ```bash
+     cd backend
+     ```
+   - Instale as dependências:
+     ```bash
+     npm install
+     ```
+   - Inicie o servidor do backend:
+     ```bash
+     npm run dev
+     ```
+
+6. **Acesse o projeto**:
+   - Abra o navegador e acesse:
+     ```
+     http://localhost:3000
+     ```
+
+## Observações
+- Certifique-se de que o Node.js está instalado na máquina.
+- Use `npm install` ou `yarn install` para instalar as dependências.
+- Use `npm run dev` para rodar o servidor de desenvolvimento.
+- Atualize este arquivo conforme novas dependências ou instruções forem adicionadas ao projeto.

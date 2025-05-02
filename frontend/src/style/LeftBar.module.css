@@ -51,6 +51,21 @@
     background-color: #4682b4;
 }
 
+.menuItem a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1e90ff;
+    transition: background-color 0.3s ease;
+}
+
+.menuItem a:hover {
+    background-color: #4682b4;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     .asideBar {
