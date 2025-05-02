@@ -184,7 +184,7 @@ Este projeto está sob uma licença **restritiva**. Não é permitido modificar,
 
 ## 📞 Suporte
 
-Dúvidas ou sugestões? Entre em contato com o mantenedor do projeto através do e-mail: **[seuemail@exemplo.com](mailto:seuemail@exemplo.com)**
+Dúvidas ou sugestões? Entre em contato com o mantenedor do projeto através do e-mail: **[seuemail@exemplo.com](mailto:kresleylucas.r@gmail.com)**
 
 ---
 
