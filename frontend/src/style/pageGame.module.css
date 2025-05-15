@@ -1,0 +1,27 @@
+.textsCods {
+    height: 60vh;
+    width: 80vw;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    align-items: center;
+}
+
+.buttonsGame {
+    display: flex;
+    gap: 30vw;
+    justify-content: center;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    font-size: 1.8rem;
+}
+
+.mensageForUser {
+    display: none;
+}

@@ -3,6 +3,7 @@
 :root {
     --background-page: #0F172A	;
     --background-bars: #1E293B;
+    --color-text: #ffffff;    
 
 }
 
@@ -14,5 +15,21 @@
 
 body {
     background-color: var(--background-page);
+}
 
+.container {
+    padding: 30px;
+    color: var(--color-text);
+}
+
+button {
+    cursor: pointer;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4682b4;
 }
