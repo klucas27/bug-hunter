@@ -9,7 +9,6 @@ export function TextsCods(props) {
           defaultLanguage="javascript"
           defaultValue={ props.codigo ||"// Digite seu código aqui"}
           theme="vs-dark"
-          onChange={(value) => props.onChange(value)} // Captura código
         />
       </div>
     );

@@ -11,7 +11,7 @@ import { Feedbacks } from "./pages/Feedbacks";
 import './style/global.css';
 
 export function App() {
-  const [isLeftBarVisible, setIsLeftBarVisible] = useState(true);
+  const [isLeftBarVisible, setIsLeftBarVisible] = useState(false);
 
   const toggleLeftBar = () => {
     setIsLeftBarVisible(!isLeftBarVisible);
